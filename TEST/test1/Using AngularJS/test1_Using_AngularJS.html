@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+<h1> Test1 AngularJS version</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.16/angular.js" data-semver="1.3.16"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+   
+   <div ng-repeat="item in data">
+      <div>
+        
+        <img ng-src="{{item.media.m}}" />
+        
+      
+      </div>
+      
+    </div>
+  </body>
+</html>

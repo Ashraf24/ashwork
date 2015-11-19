@@ -1,0 +1,156 @@
+header {
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding:2.5% 0; 
+	margin:5% 0;
+}
+nav {
+    background-color:#eeeeee;
+    height:5%;
+    float:left;
+	padding:0;
+	margin:0;
+    border:1px solid black; 
+}
+section {
+    float:left;
+    padding:0px;
+	margin:0px;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+img{
+max-width:100%;
+max-height:100%;
+float:10px;
+margin:5px;
+}
+.links{
+	float:right;
+}
+.logo
+{
+max-width:100%;
+height:auto;	
+float:left;
+margin:0 0 2% 0;
+padding:0;
+}
+.social
+{
+max-width:100%;
+height:auto;	
+float:right;
+margin:0 0 2% 0;
+padding:0;
+}
+
+	
+@media(max-width:750px)
+{
+.social
+{
+
+position:relative;	
+display:none;
+}
+nav{display:none;}
+
+.mobile-menu{display:inline;
+width:100px;
+background-color:sky;
+}
+
+#social-bottom{display:inline;}
+
+.col-2{display:none;}
+	
+}
+
+div{
+	float:left;
+	
+	}
+body{
+	width:80%;
+	height:100%;
+	float:right;
+	margin:0 10%;
+	padding:0;
+	overflow-x:hide;
+	
+}
+
+	
+
+div:after {
+    content:"";
+    clear: both;
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+	
+}
+.menu a:link{
+	text-decoration:none;
+	color:black;
+	font-size:100%;
+	font-weight:bold;
+	
+	
+	}
+    
+
+.menu li {
+padding: 1% 4%;
+    margin:1%;
+
+    display:inline;
+}
+.menu li:hover {
+    background-color: #0099cc;
+	    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border:1px solid black;
+	border-radius:5px;
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+	/* For laptop: */
+@media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	#social-bottom{display:none;}
+	.menu ul{display:inline;}
+	.mobile-menu{display:none;}
+	
+	}
+	
+	
+}
